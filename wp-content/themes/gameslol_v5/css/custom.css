@@ -1,0 +1,284 @@
+.easyPaginateNav {
+    display: inline-block;
+    text-align: center;
+}
+.easyPaginateNav a {
+  	padding:5px;
+    color: blue;
+    padding: 5px 12px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.easyPaginateNav a.active {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.easyPaginateNav a:hover:not(.active) {background-color: #ddd;}
+
+.easyPaginateNav a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.easyPaginateNav a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/** CONTACT FORM CSS */
+
+/** CONTACT FORM CSS */
+
+.contact_form {
+ width: 100%;
+ max-width: 800px;
+ margin: auto;
+}
+.contact_form .row {
+ padding: 10px 0;
+}
+
+.contact_form label {
+ font-weight: bold;
+ font-size: 11pt;
+ margin: 0;
+}
+
+.contact_form label.required:after {
+ content: "*";
+ margin-left: 2px;
+ color: red;
+}
+
+.contact_form span.note {
+ font-weight: normal;
+ font-size: 9pt;
+ color: gray;
+}
+
+.contact_form input, 
+.contact_form textarea {
+ width: 100%;
+ margin: 5px auto 0;
+ padding: 5px;
+ font-size: 10pt;
+ border-radius: 5px;
+ border: 1px solid #bbbbbb;
+}
+
+.contact_form select {
+ width: 100%;
+ max-width: 500px;
+ margin: 5px 0;
+ padding: 5px;
+ font-size: 10pt;
+ border-radius: 5px;
+ border: 1px solid #bbbbbb;
+}
+
+.contact_form input[type=submit] {
+    width: auto;
+    padding: 10px 50px;
+    font-size: 12pt;
+    border: none;
+    background: #117315;
+    color: white;
+}
+
+/** 04/03 UPDATE - NEW HOMEPAGE **/
+/* TOP NAV SMALLER FONTS */
+header #navbar-logo img { max-height: 20px !important; }
+header #navbar-logo {
+    line-height: 6pt;
+}
+header .navbar-brand-caption { font-size: 8.5pt !important; }
+header .navbar { min-height: auto !important; }
+.page { padding-top: 50px !important; }
+#homepage.container { padding-top: 50px !important; }
+header #navbar-menu a {font-size: 12.2px !important;}
+
+/* DARK THEME */
+.new_theme {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header.new_theme .navbar
+{ height: 100px; }
+
+header.new_theme .navbar > .container {
+    min-height: 75px;
+}
+
+header.new_theme #navbar-menu,
+header.new_theme #popular_tags
+ { background: black;}
+
+header.new_theme  #navbar-logo img
+{ max-height: 30px !important; }
+
+header.new_theme #navbar-menu a {
+	color: #cfcfcf;
+}
+
+header.new_theme #popular_tags {
+	margin-top: 15px;
+    width: 100%;
+    font-size: 10pt;
+    color: white;
+}
+
+header.new_theme #popular_tags a {
+    display: inline-block;
+    margin: 0 5px;
+    color: #ff8833;
+}
+
+header.new_theme #popular_tags a:hover {
+    color: #ffc530;
+}
+
+div#popular_tags>.row {
+	overflow: hidden;
+    padding: 5px 15px 0;
+    border-top: 1px solid #524e4e;
+    height: 20pt;
+}
+div#popular_tags .row p {
+    padding: 0 10px;
+}
+
+#navbar-menu .search {
+    margin-left: 10px;
+}
+
+section#content.new_theme {
+	background: #080808;
+	color: #d7cdcd;
+}
+
+/* WIDER CONTENT AREA */
+@media (min-width: 1360px){
+	section#content.new_theme .container {
+		max-width: 1360px;
+	}
+	.grid_minigame .item { width: calc(20% - 10px); }
+}
+
+section#content.new_theme #home_content_article a {
+	color: #ff8833;
+}
+
+section#content.new_theme #home_content_article a:hover {
+	color: #ffc530;
+}
+
+#new_homepage.page {
+    padding-top: 100px !important;
+}
+
+#new_homepage .home_widget_box {
+    background:  none;
+}
+
+#new_homepage h2.widget_title {
+    background: none;
+    color: white;
+    float: none;
+    margin: 10px;
+}
+
+#new_homepage hr {
+    border-top: 1px solid #616569;
+	margin: 2rem auto;
+}
+
+#new_homepage #home_content_article p {
+    font-size: 11pt;
+}
+
+footer.new_theme {
+	background: #363637 !important;
+	border: 1px solid #524e4e;
+	padding-top: 20px;
+	margin: 5px;
+	color: #dadada;
+}
+
+footer.new_theme a {
+	color: #c5c5c5;
+}
+
+footer.new_theme a:hover {
+	color: #ffffff;
+}
+
+footer.new_theme .footer_branding {
+}
+
+
+footer.new_theme .footer_socmed {
+	font-size: 50pt;
+	line-height: 30px;
+}
+
+footer.new_theme .footer_socmed a {
+	opacity: .6;
+}
+
+footer.new_theme .footer_socmed a:hover {
+	opacity: 1;
+}
+
+footer.new_theme .footer_logo img {
+	max-height: 30px;
+}
+
+footer.new_theme h4 {
+	font-size: 15pt;
+	margin-bottom: 10pt;
+}
+
+footer.new_theme .widget_footer ul {
+	text-align: left;
+}
+
+footer.new_theme .widget_footer ul li {
+	list-style: disc;
+	display: block;
+}
+
+
+footer.new_theme #newtheme-widgets-left ul {
+	columns: 3;
+}
+
+
+footer.new_theme .footer_text {
+	font-size: 11pt;
+}
+
+footer.new_theme .footer_copyright {
+	color: #9e9797;
+}
+
+
+footer.new_theme .footer_menu {
+	text-align: center;
+	margin-top: 10px;
+}
+
+footer.new_theme .footer_menu ul {
+	text-align: center;
+}
+
+
+#minigamepage section#gamebanner>.overlay>.gameimg > img {
+    min-width: 300px;
+}
+
+#minigamepage section#gamebanner>.overlay>.gameimg > img, #gamepage section#gamebanner>.overlay>.gameimg > img {
+      min-width: 300px;
+}

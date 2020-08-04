@@ -1,0 +1,82 @@
+
+/**************************************/
+/**** GAMES.LOL AVENGERS SPECIAL ******/
+/**************************************/
+
+section#content {
+	background: url('https://games.lol/wp-content/uploads/2019/04/avengerstheme_bg.jpg') #140830 repeat fixed;
+	color: white;
+}
+
+#homepage.container {
+}
+
+#homepage > #home_content_games {	
+	background: url('https://games.lol/wp-content/uploads/2019/04/avengerstheme_stones.png')
+	 no-repeat center top;
+	 padding-top: 140px;
+}
+
+#home_content_article a {
+    color: #acacff;
+}
+#home_content_article a:hover {
+    color: #91b9ff;
+}
+
+header .navbar {
+	background: ;
+}
+
+.home_widget_box {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.widget_title {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c49bff+0,815bbf+47,320089+100 */
+	background: #7a30a3;
+	color: #ffffff;
+}
+
+footer.container-fluid {
+    padding: 0;
+    padding-bottom: 15px;
+    margin-left: 0;
+}
+
+footer:before {
+    content: '';
+    padding: 0;
+    background: url('https://games.lol/wp-content/uploads/2019/04/avengerstheme_footer.png') bottom center no-repeat,
+    			url('https://games.lol/wp-content/uploads/2019/04/avengerstheme_footer2.jpg') bottom center repeat-x;
+    background-size: auto 100%, auto 100%;
+	display: block;
+	height: 300px;
+	margin-top: -30px;
+	
+}
+
+#footer-widgets, footer:before {
+    background-color: #0d0015;
+}
+
+#footer-widgets * {
+	color: #acabfe;
+}
+
+#footer-widgets h4 {
+	color: #ffffff;
+}
+
+.widget_connect ul li .fa,
+.widget_connect ul li a {
+	color: #acabfe !important;
+}
+
+/* Hide ratings in grid boxes */
+
+.item .rating {
+
+    display: none;
+
+}

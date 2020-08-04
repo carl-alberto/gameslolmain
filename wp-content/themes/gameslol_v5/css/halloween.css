@@ -1,0 +1,84 @@
+
+/**************************************/
+/**** GAMES.LOL HALLOWEEN SPECIAL *****/
+/**************************************/
+
+section#content {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#627d4d+0,1f3b08+100;Olive+3D */
+	background: #627d4d; /* Old browsers */
+	background: -moz-linear-gradient(top, #627d4d 0%, #1f3b08 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #627d4d 0%,#1f3b08 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #310000 0%,#c7641e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#1f3b08',GradientType=0 ); /* IE6-9 */
+	background-attachment: ;
+}
+
+#homepage.container {
+	background: url('https://games.lol/wp-content/uploads/2018/10/slime_a-1.png')
+	 repeat-x center top -115px;
+	color: white;
+}
+
+#homepage > #home_content_games {
+	padding-top: 80px;
+}
+
+#home_content_article a {
+    color: #f0be32;
+}
+#home_content_article a:hover {
+    color: #66c771;
+}
+
+header .navbar {
+	background: url('https://games.lol/wp-content/uploads/2018/10/spider-web-2-e1540869201935.png')
+	no-repeat top left 0 rgba(0, 0, 0, 1) !important;
+	padding-left: 10px;
+}
+
+.home_widget_box {
+	background: url('https://games.lol/wp-content/uploads/2018/10/spider-web.png')
+	no-repeat top right rgba(0, 0, 0, 0.72);
+}
+
+.sidebar .widget_taglist li a {
+	color: #f8e7b2;
+	border-color: #f8e7b2;
+}
+
+.widget_title {
+	background: #daa512;
+	color: #000000;
+}
+
+footer.container-fluid {
+    padding: 0;
+    padding-bottom: 15px;
+    margin-left: 0;
+}
+
+footer:before {
+    content: '';
+    padding: 0;
+    background: url('https://games.lol/wp-content/uploads/2018/10/gameslol_halloween_footer-1.png') bottom center repeat-x;
+	display: block;
+	height: 228px;
+	margin-top: -30px;
+}
+
+#footer-widgets, footer:before {
+    background-color: #6b0300;
+}
+
+#footer-widgets * {
+	color: #d6c396;
+}
+
+#footer-widgets h4 {
+	color: #ad811b;
+}
+
+.widget_connect ul li .fa,
+.widget_connect ul li a {
+	color: #ffe4a6 !important;
+}
